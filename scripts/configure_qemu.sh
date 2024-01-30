@@ -41,6 +41,7 @@ set -x
   --prefix=/usr \
   --with-pkgversion=$QEMU_VERSION \
   --enable-linux-user \
+  --enable-pie \
   --disable-system \
   --static \
   --disable-brlapi \
@@ -59,7 +60,6 @@ set -x
   --disable-mpath \
   --disable-nettle \
   --disable-opengl \
-  --disable-pie \
   --disable-sdl \
   --disable-spice \
   --disable-tools \
